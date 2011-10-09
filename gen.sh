@@ -1,0 +1,19 @@
+#!/bin/bash
+pygmentize -S monokai -f html | python convert.py --class $1 > css/monokai.css
+pygmentize -S manni -f html | python convert.py --class $1 > css/manni.css
+pygmentize -S perldoc -f html | python convert.py --class $1 > css/perldoc.css
+pygmentize -S borland -f html | python convert.py --class $1 > css/borland.css
+pygmentize -S colorful -f html | python convert.py --class $1 > css/colorful.css
+pygmentize -S default -f html | python convert.py --class $1 > css/default.css
+pygmentize -S murphy -f html | python convert.py --class $1 > css/murphy.css
+pygmentize -S vs -f html | python convert.py --class $1 > css/vs.css
+pygmentize -S trac -f html | python convert.py --class $1 > css/trac.css
+pygmentize -S tango -f html | python convert.py --class $1 > css/tango.css
+pygmentize -S fruity -f html | python convert.py --class $1 > css/fruity.css
+pygmentize -S autumn -f html | python convert.py --class $1 > css/autumn.css
+pygmentize -S bw -f html | python convert.py --class $1 > css/bw.css
+pygmentize -S emacs -f html | python convert.py --class $1 > css/emacs.css
+pygmentize -S vim -f html | python convert.py --class $1 > css/vim.css
+pygmentize -S pastie -f html | python convert.py --class $1 > css/pastie.css
+pygmentize -S friendly -f html | python convert.py --class $1 > css/friendly.css
+pygmentize -S native -f html | python convert.py --class $1 > css/native.css
