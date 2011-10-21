@@ -2,7 +2,7 @@
 
 A [pygments][1] CSS to [CodeRay][2] converter. It can handle most tokens, but some are not available in CodeRay and/or a CodeRay-only token. Early beta and only tested with some python and YAML.
 
-    git clone https://posativ.org/git/prettycoderay
+    git clone https://posativ.org/git/prettycoderay.git
 
 You need *pygments* installed (CodeRay is not required). Do `easy_install pygments`.
 Use this, to render the "trac" theme:
