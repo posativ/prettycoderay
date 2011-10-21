@@ -1,55 +1,8 @@
-bp 	pc
-c 	c
-cm 	c
-err 	er
-gd 	del
-gi 	ins
-gs 	('af', 'aw')
-il 	i
-k 	kw
-kc 	co
-kd 	kw
-kn 	kw
-kp 	ps
-kr 	r
-kt 	ty
-m 	i
-mf 	fl
-mh 	hx
-mi 	i
-mo 	oc
-na 	an
-nb 	pd
-nc 	cl
-nd 	de
-ne 	ex
-nf 	fu
-ni 	en
-nl 	la
-no 	co
-nt 	ta
-nv 	v
-o 	op
-ow 	of
-s 	('s', 'xt')
-s1 	('s', 'xt')
-s2 	('s', 'xt')
-sb 	sh
-sc 	ch
-sd 	ds
-se 	e
-sh 	('s', 'xt')
-si 	('s', 'xt')
-sr 	rx
-ss 	sy
-sx 	('s', 'xt')
-vc 	cl
-vg 	gv
-vi 	iv
 .syntaxhl .gv { color: #003333 }
 .syntaxhl .en { color: #999999; font-weight: bold }
 .syntaxhl .co { color: #006699; font-weight: bold }
 .syntaxhl .cl { color: #00AA88; font-weight: bold }
+.syntaxhl .dl { color: #CC3300; font-style: italic }
 .syntaxhl .ins { background-color: #CCFFCC; border: 1px solid #00CC00 }
 .syntaxhl .ch { color: #CC3300 }
 .syntaxhl .ex { color: #CC0000; font-weight: bold }
@@ -76,6 +29,7 @@ vi 	iv
 .syntaxhl .e { color: #CC3300; font-weight: bold }
 .syntaxhl .i { color: #FF6600 }
 .syntaxhl .of { color: #000000; font-weight: bold }
+.syntaxhl .k { color: #CC3300; font-style: italic }
 .syntaxhl .la { color: #9999FF }
 .syntaxhl .oc { color: #FF6600 }
 .syntaxhl .s { color: #CC3300 }

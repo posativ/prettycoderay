@@ -1,28 +1,3 @@
-c 	c
-cm 	c
-err 	er
-gs 	('af', 'aw')
-k 	kw
-kc 	co
-kd 	kw
-kn 	kw
-kp 	ps
-kr 	r
-kt 	ty
-nc 	cl
-ow 	of
-s 	('s', 'xt')
-s1 	('s', 'xt')
-s2 	('s', 'xt')
-sb 	sh
-sc 	ch
-sd 	ds
-se 	e
-sh 	('s', 'xt')
-si 	('s', 'xt')
-sr 	rx
-ss 	sy
-sx 	('s', 'xt')
 .syntaxhl .cl { color: #2b91af }
 .syntaxhl .ps { color: #0000ff }
 .syntaxhl .c { color: #008000 }
@@ -30,10 +5,12 @@ sx 	('s', 'xt')
 .syntaxhl .co { color: #0000ff }
 .syntaxhl .af { font-weight: bold }
 .syntaxhl .of { color: #0000ff }
+.syntaxhl .k { color: #a31515 }
 .syntaxhl .ty { color: #2b91af }
 .syntaxhl .rx { color: #a31515 }
-.syntaxhl .sy { color: #a31515 }
+.syntaxhl .dl { color: #a31515 }
 .syntaxhl .sh { color: #a31515 }
+.syntaxhl .sy { color: #a31515 }
 .syntaxhl .s { color: #a31515 }
 .syntaxhl .r { color: #0000ff }
 .syntaxhl .kw { color: #0000ff }

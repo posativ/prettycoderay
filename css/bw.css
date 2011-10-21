@@ -1,46 +1,22 @@
-c 	c
-cm 	c
-err 	er
-gs 	('af', 'aw')
-k 	kw
-kc 	co
-kd 	kw
-kn 	kw
-kr 	r
-nc 	cl
-ne 	ex
-ni 	en
-nt 	ta
-ow 	of
-s 	('s', 'xt')
-s1 	('s', 'xt')
-s2 	('s', 'xt')
-sb 	sh
-sc 	ch
-sd 	ds
-se 	e
-sh 	('s', 'xt')
-si 	('s', 'xt')
-sr 	rx
-ss 	sy
-sx 	('s', 'xt')
-.syntaxhl .c { font-style: italic }
 .syntaxhl .en { font-weight: bold }
 .syntaxhl .co { font-weight: bold }
 .syntaxhl .af { font-weight: bold }
 .syntaxhl .ch { font-style: italic }
-.syntaxhl .of { font-weight: bold }
-.syntaxhl .cl { font-weight: bold }
-.syntaxhl .rx { font-style: italic }
-.syntaxhl .sy { font-style: italic }
-.syntaxhl .sh { font-style: italic }
-.syntaxhl .s { font-style: italic }
-.syntaxhl .r { font-weight: bold }
-.syntaxhl .kw { font-weight: bold }
 .syntaxhl .ex { font-weight: bold }
 .syntaxhl .aw { font-weight: bold }
-.syntaxhl .e { font-weight: bold; font-style: italic }
-.syntaxhl .ta { font-weight: bold }
-.syntaxhl .ds { font-style: italic }
 .syntaxhl .xt { font-style: italic }
 .syntaxhl .er { border: 1px solid #FF0000 }
+.syntaxhl .cl { font-weight: bold }
+.syntaxhl .rx { font-style: italic }
+.syntaxhl .r { font-weight: bold }
+.syntaxhl .ta { font-weight: bold }
+.syntaxhl .dl { font-style: italic }
+.syntaxhl .sy { font-style: italic }
+.syntaxhl .ds { font-style: italic }
+.syntaxhl .c { font-style: italic }
+.syntaxhl .e { font-weight: bold; font-style: italic }
+.syntaxhl .of { font-weight: bold }
+.syntaxhl .k { font-style: italic }
+.syntaxhl .s { font-style: italic }
+.syntaxhl .sh { font-style: italic }
+.syntaxhl .kw { font-weight: bold }

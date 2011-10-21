@@ -1,53 +1,8 @@
-bp 	pc
-c 	c
-cm 	c
-err 	er
-gs 	('af', 'aw')
-il 	i
-k 	kw
-kc 	co
-kd 	kw
-kn 	kw
-kp 	ps
-kr 	r
-kt 	ty
-m 	i
-mf 	fl
-mh 	hx
-mi 	i
-mo 	oc
-na 	an
-nb 	pd
-nc 	cl
-nd 	de
-ne 	ex
-nf 	fu
-ni 	en
-nl 	la
-no 	co
-nt 	ta
-nv 	v
-o 	op
-ow 	of
-s 	('s', 'xt')
-s1 	('s', 'xt')
-s2 	('s', 'xt')
-sb 	sh
-sc 	ch
-sd 	ds
-se 	e
-sh 	('s', 'xt')
-si 	('s', 'xt')
-sr 	rx
-ss 	sy
-sx 	('s', 'xt')
-vc 	cl
-vg 	gv
-vi 	iv
 .syntaxhl .gv { color: #f8f8f2 }
 .syntaxhl .en { color: #f8f8f2 }
 .syntaxhl .co { color: #66d9ef }
 .syntaxhl .cl { color: #a6e22e }
+.syntaxhl .dl { color: #e6db74 }
 .syntaxhl .an { color: #a6e22e }
 .syntaxhl .ch { color: #e6db74 }
 .syntaxhl .ex { color: #a6e22e }
@@ -73,6 +28,7 @@ vi 	iv
 .syntaxhl .e { color: #ae81ff }
 .syntaxhl .i { color: #ae81ff }
 .syntaxhl .of { color: #f92672 }
+.syntaxhl .k { color: #e6db74 }
 .syntaxhl .ty { color: #66d9ef }
 .syntaxhl .oc { color: #ae81ff }
 .syntaxhl .s { color: #e6db74 }
