@@ -158,7 +158,7 @@ mapping = UserDict({
     # : 'di', # :directive
     # : 'do', # :doc
     # : 'dt', # :doctype
-    'sd' : 'ds', # :doc_string
+    'sd' : ('ds', 'k', 'dl'), # :doc_string
     'ni' : 'en', # :entity
     'err': 'er', # :error
     'se' :  'e', # :escape
@@ -231,7 +231,6 @@ def convert(input):
             continue
         
         v, w = tag, mapping[tag] # pygments identifier -> coderay identifier
-        print v, '\t', w
         if isinstance(w, str) and isinstance(v, str):
             # bijektiv
             newcss.add(Rule(w, code))
